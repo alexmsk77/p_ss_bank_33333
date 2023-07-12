@@ -1,0 +1,10 @@
+package com.bank.antifraud.audit;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+/**
+ * Репозиторий аудита.
+ */
+public interface AuditRepository extends JpaRepository<Audit, Integer> {
+}
