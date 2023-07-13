@@ -1,13 +1,11 @@
 package com.bank.transfer.dto;
 
 
-import io.micrometer.core.lang.Nullable;
 import lombok.Data;
 
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
-import javax.validation.constraints.PositiveOrZero;
 import java.math.BigDecimal;
 
 /**

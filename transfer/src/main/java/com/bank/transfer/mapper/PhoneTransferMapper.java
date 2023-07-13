@@ -1,8 +1,6 @@
 package com.bank.transfer.mapper;
 
-import com.bank.transfer.dto.CardTransferDTO;
 import com.bank.transfer.dto.PhoneTransferDTO;
-import com.bank.transfer.model.CardTransfer;
 import com.bank.transfer.model.PhoneTransfer;
 import org.mapstruct.Mapper;
 
